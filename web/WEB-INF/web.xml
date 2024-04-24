@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+    <servlet>
+        <servlet-name>QuerybuildingServlet</servlet-name>
+        <servlet-class>com.whu.web.QuerybuildingServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>QuerybuildingServlet</servlet-name>
+        <url-pattern>/querybuildingServlet</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>CounttypeServlet</servlet-name>
+        <servlet-class>com.whu.web.CounttypeServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CounttypeServlet</servlet-name>
+        <url-pattern>/counttypeServlet</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>GetpathServlet</servlet-name>
+        <servlet-class>com.whu.web.GetpathServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>GetpathServlet</servlet-name>
+        <url-pattern>/getpathServlet</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>GetfacilityServlet</servlet-name>
+        <servlet-class>com.whu.web.GetfacilityServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>GetfacilityServlet</servlet-name>
+        <url-pattern>/getfacilityServlet</url-pattern>
+    </servlet-mapping>
+</web-app>

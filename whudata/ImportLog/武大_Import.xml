@@ -1,0 +1,31 @@
+<ImportMXDLog>	<Messages>
+		<FileName>D:\Temp\GIS工程\武汉大学地图数据\武大.mxd</FileName>
+		<Message>
+			<Name></Name>
+			<MessageType>警告</MessageType>
+			<Severity>中等</Severity>
+			<Description>由于自适应策略中的改进以及对图例图面形状的更改，导入到 ArcGIS Pro 中的图例的显示可能会有所不同。 可能需要对默认外观进行修改。</Description>
+			<Code>20038</Code>
+			<ComponentName>武大</ComponentName>
+			<ComponentType>布局</ComponentType>
+</Message>
+		<Message>
+			<Name></Name>
+			<MessageType>警告</MessageType>
+			<Severity>中等</Severity>
+			<Description>图层或布局元素使用以粗体或斜体进行绘制的文本符号</Description>
+			<Code>20008</Code>
+			<ComponentName>绿地</ComponentName>
+			<ComponentType>Layer</ComponentType>
+</Message>
+		<Message>
+			<Name></Name>
+			<MessageType>警告</MessageType>
+			<Severity>中等</Severity>
+			<Description>布局上地图的比例可能未正确导入。</Description>
+			<Code>20037</Code>
+			<ComponentName>武大</ComponentName>
+			<ComponentType>布局</ComponentType>
+</Message>
+</Messages>
+</ImportMXDLog>
